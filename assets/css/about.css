@@ -1,0 +1,39 @@
+.about-divider-container {
+}
+
+.about-divider-left {
+	display: inline-block;
+	float: left;
+	width: 40%;
+}
+
+.about-divider-right {
+	display: inline-block;
+	float: right;
+	width: 60%;
+}
+
+.about-content {
+	padding: 50px 100px 100px 0;
+}
+
+.about-content p {
+	font-size: 150%;
+}
+
+.poster {
+	width: 300px;
+	height: 300px;
+	margin: 100px auto auto;
+}
+
+.poster-static {
+	position: fixed;
+	top: 0;
+	left: calc((40% - 300px) / 2);
+}
+
+.poster img {
+	width: 100%;
+	overflow: hidden;
+}

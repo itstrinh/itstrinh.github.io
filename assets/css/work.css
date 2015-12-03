@@ -1,0 +1,19 @@
+.banner {
+	padding: 20px;
+	border-bottom: thin solid black;
+	overflow: auto;
+}
+
+.banner-image {
+	padding: 20px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	float: left;
+}
+
+.banner-description {
+	padding: 20px;
+	width: calc(100% - 200px - 4 * 20px);
+	display: inline-block;
+}
