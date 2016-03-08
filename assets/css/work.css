@@ -2,6 +2,7 @@
 	padding: 20px;
 	border-bottom: thin solid black;
 	overflow: auto;
+	margin: 0 10%;
 }
 
 .banner-image {
@@ -13,7 +14,33 @@
 }
 
 .banner-description {
-	padding: 20px;
+	padding: 15px;
 	width: calc(100% - 200px - 4 * 20px);
-	display: inline-block;
+	display: inline-block;    
+}
+
+
+.header {
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    position: relative;
+
+}
+
+.timelabel {
+    float: right;
+    font-style: italic;
+}
+
+.titlelabel {
+    float: left;
+    font-weight: bold;
+}
+
+.toplabel {
+    float: right;
+    font-size: 125%;
+    font-family: 'Raleway', sans-serif;
 }

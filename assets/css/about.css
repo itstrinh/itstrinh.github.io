@@ -18,7 +18,7 @@
 }
 
 .about-content p {
-	font-size: 150%;
+	font-size: 110%;
 }
 
 .poster {
@@ -36,4 +36,14 @@
 .poster img {
 	width: 100%;
 	overflow: hidden;
+}
+
+.scroll-container {
+	position: relative;
+	top: 5%;
+}
+
+.scroll-item {
+	text-align: center;
+	font-size: 125%;
 }
