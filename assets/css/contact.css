@@ -17,15 +17,17 @@
 .form {
     position: relative;
     left: 35%;
+    width: 500px;
+
 }
 
 .textbox {
     height: 20%;
-    width: 30%;
+    width: 500px;
 }
 
 .input {
-    width: 30%;
+    width: 390px;
 }
 
 .link-item {
